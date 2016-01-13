@@ -77,3 +77,4 @@ exclude:
     - README.md
     - CNAME
     - vendor
+    - scripts-ci
