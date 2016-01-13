@@ -1,0 +1,16 @@
+machine:
+  ruby:
+    version: 2.3.0
+dependencies:
+  pre:
+    - sudo apt-get update
+    # Necessary for s3cmd 1.5.0-rc1
+    - sudo apt-get install python-dateutil
+test:
+  override:
+    - jekyll build
+deployment:
+  release:
+    branch: master
+    commands:
+      - scripts-ci/s3_upload.sh
