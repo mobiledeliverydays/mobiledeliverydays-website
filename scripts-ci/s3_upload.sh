@@ -19,7 +19,7 @@ tar xzf v$s3cmd_version.tar.gz
 DIST=_site/
 #cd site/output
 #../../s3cmd-$s3cmd_version/s3cmd sync --acl-public --progress --mime-type="application/javascript" --bucket-location=EU ./ s3://$S3_BUCKET  --exclude '*.*' --include '*.js'
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="application/javascript" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.js'
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/css" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.css'
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public --progress --mime-type="text/html" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.html'
-s3cmd-$s3cmd_version/s3cmd sync  --acl-public -M --progress $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.css' --exclude '*.js' --exclude '*.html'
+s3cmd-$s3cmd_version/s3cmd sync  --add-header 'Cache-Control: max-age=60' --acl-public --progress --mime-type="application/javascript" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.js'
+s3cmd-$s3cmd_version/s3cmd sync  --add-header 'Cache-Control: max-age=60' --acl-public --progress --mime-type="text/css" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.css'
+s3cmd-$s3cmd_version/s3cmd sync  --add-header 'Cache-Control: max-age=60' --acl-public --progress --mime-type="text/html" $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.*' --include '*.html'
+s3cmd-$s3cmd_version/s3cmd sync  --add-header 'Cache-Control: max-age=60' --acl-public -M --progress $DIST/ s3://$S3_BUCKET --bucket-location=EU --exclude '*.css' --exclude '*.js' --exclude '*.html'
