@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-S3_BUCKET="www.mobiledeliverydays.org"
+S3_BUCKET="mobiledeliverydays.org"
 
 ################################################################################
 # Upload S3
