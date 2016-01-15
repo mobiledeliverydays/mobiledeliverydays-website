@@ -6,7 +6,7 @@ layout: page
   <p class="meta">Presenters: {{ page.presenters }}</p>
 
   <aside>
-    <p>Presented on {{ page.day }} at {{ page.start }}</p>
+    <p>Presented on {{ page.date | date: "%b %d" }} at {{ page.start }}</p>
 
     <ul class="meta">
       {% if page.slides != null %}

@@ -286,24 +286,28 @@ footer {
 /**
  * Schedule layout
  */
-
-.schedule {
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-}
-
-.schedule > section.day {
-  width: 50%;
-  padding: 10px;
-}
+@media all and (min-width :500px) {
+  #schedule {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
   
-.schedule > section.day:first-child {
-	margin-right: 20px;
+  #schedule > .day {
+    width: 50%;
+  }
 }
 
-.schedule .time {
-  width: 20%;
+#schedule h3, #schedule h4 {
+  margin-top:0px;
+}
+
+#schedule article.session {
+  border-bottom:1px dotted grey;
+}
+
+#schedule .session-time {
+  width: 30%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;
@@ -311,17 +315,19 @@ footer {
   font-size:15px;   
 }
 
-.schedule .session {
-  width: 75%;
+#schedule .session-info {
+  width: 70%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
 }
 
-.schedule article {
+#schedule article {
   clear:both;
 }
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
