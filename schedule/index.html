@@ -1,0 +1,34 @@
+---
+layout: page
+---
+<div class="schedule">
+    <section class="day">
+    {% assign confDay = '' %}
+    {% for post in site.categories.session reversed %}
+      {% capture day %}{{ post.date | date: "%b %d" }}{% endcapture %}
+      {% if confDay != day %}
+        {% if confDay != '' %}
+      </section>
+      <section class="day">
+        {% endif %}
+        <h3 class="day-title">Day {{post.day}}, {{day}}</h3>
+        {% assign confDay = day %}
+      {% endif %}
+      {% if post.accepted == true %}
+          <article>
+        		<h4 class="time">{{ post.start }}</h4>              
+            <div class="session">
+            	<h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+
+            	{% if post.presenters != null %}
+                <p class="meta">
+              	  <span class="presenters">{{ post.presenters }}</span>
+              	</p>
+              {% endif %}
+
+            </div>
+          </article>
+      {% endif %}
+    {% endfor %}
+  	</section>  
+</div>
