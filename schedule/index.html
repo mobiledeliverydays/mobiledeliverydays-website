@@ -8,6 +8,7 @@ layout: default
       {% capture day %}{{ post.date | date: "%b %d" }}{% endcapture %}
       {% if confDay != day %}
         {% if confDay != '' %}
+        <article class="session"></article>
       </section>
       <section class="day">
         {% endif %}
@@ -32,5 +33,6 @@ layout: default
           </article>
       {% endif %}
     {% endfor %}
+    <article class="session"></article>
   	</section>  
 </div>
