@@ -26,15 +26,19 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/propose">Propose</a>
-            <a href="{{ site.baseurl }}/program">Program</a>
-            <a href="{{ site.baseurl }}/location">Location</a>
-            <a href="{{ site.baseurl }}/sponsor">Sponsor</a>
-            <a href="{{ site.baseurl }}/register">Register</a>
-            <a href="{{ site.baseurl }}/code-of-conduct">CoC</a>
-            <a href="{{ site.baseurl }}/contact">Contact</a>
+          <nav id="nav" role="navigation">
+            <a href="#nav" title="Show navigation">Show navigation</a>
+            <a href="#" title="Hide navigation">Hide navigation</a>
+            <ul>
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              <li><a href="{{ site.baseurl }}/propose">Propose</a></li>
+              <li><a href="{{ site.baseurl }}/program">Program</a></li>
+              <li><a href="{{ site.baseurl }}/location">Location</a></li>
+              <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
+              <li><a href="{{ site.baseurl }}/register">Register</a></li>
+              <li><a href="{{ site.baseurl }}/code-of-conduct">CoC</a></li>
+              <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+            </ul>
           </nav>
         </header>
       </div>
