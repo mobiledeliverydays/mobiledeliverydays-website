@@ -3,6 +3,7 @@ layout: default
 ---
 
 <center>
+<img src="overview.png">
 Struggling with **Mobile App delivery**? We feel your pain!
 
 The tooling is still Work In Progress, and detailed technical stories are hard to find.
