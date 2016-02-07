@@ -9,7 +9,7 @@ The tooling is still Work In Progress, and detailed technical stories are hard t
 
 We believe we need to start talking about *the complete mobile delivery toolchain*:
 
-**From automated app testing over publishing and running it into production, supporting it and all the way back to delivering business insights.**
+## **From automated app testing over publishing and running it into production, supporting it and all the way back to delivering business insights.**
 
 That's why [we are organizing](/contact) this conference.
 
