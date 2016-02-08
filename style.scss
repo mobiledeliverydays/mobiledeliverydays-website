@@ -218,12 +218,11 @@ img {
   font-size: 18px;
 
   @include mobile {
-    margin: 0 10px;
-    width: 60em;
+    width: 100%;
     font-size: 16px;
-    position: absolute;
-    top: 1em;
-    left: 0;
+    position: relative;
+    top: auto;
+    left: auto;
 
     &:not( :target ) > a:first-of-type,
     &:target > a:last-of-type {
@@ -269,6 +268,7 @@ img {
 
   }
   ul {
+    padding:0px;
     @include mobile {
       height: auto;
       display: none;
@@ -300,6 +300,7 @@ img {
             padding: 0 0.833em;
             line-height:2.5em;
             border-bottom: 1px solid $white;
+            margin-left:0px;
           }
         }
     }
