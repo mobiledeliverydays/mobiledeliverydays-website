@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Sponsors
+permalink: /sponsor/
 ---
 
 We greatly value sponsors for this open event.
