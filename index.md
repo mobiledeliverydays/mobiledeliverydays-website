@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<center>
+
 <img src="overview.png">
-Struggling with **Mobile App delivery**? We feel your pain!
+## What is it?
+It's early days for mobile app delivery and operations. The tools and methods are still developing and detailed technical stories are hard to find. We believe we need to start talking about the complete mobile delivery story.
 
-The tooling is still Work In Progress, and detailed technical stories are hard to find.
+## When and where is it?
+Join us [March 21-22 2016 in San Francisco](/location) to talk about everything from testing to publishing to running in production to supporting and delivering business insights.
 
-We believe we need to start talking about *the complete mobile delivery toolchain*:
+## How do I sign up?
+Registration starts February 15th, and attendance is free. Space is very limited, so mark your calendars. [Lean more](/register)!
 
-# [Join us - 21 &amp; 22 March 2016 - Amazon Loft - SF](/register)
+## Can I speak?
+Yes, call for speakers is open! [Come share your knowledge, learn from your peers, advance our field](/propose).
 
-## **From automated app testing over publishing and running it into production, supporting it and all the way back to delivering business insights.**
+## Can my company help out?
+Yes, we're looking for sponsors. [Learn more](/sponsor)!
 
-That's why [we are organizing](/contact) this conference.
-
-[Come share your knowledge, learn from your peers, advance our field.](/propose)
-
-</center>
-
-
+## Who's putting this together?
+A [motley crew](/contact) of folks that think it's about time to have a conference dedicated specifically to mobile application delivery.

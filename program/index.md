@@ -1,9 +1,11 @@
 ---
 layout: default
+title: Program
+permalink: /program/
 ---
 Learn about the [Openspace format](/general/open-space-format) & [Ignite talks](/general/ignite-talks-format)
 
-*This is pretty much work in progress - we're still working out the logistics.*
+*This is very much a work in progress. We're still working out the logistics.*
 
 <div id="schedule">
     <section class="day">

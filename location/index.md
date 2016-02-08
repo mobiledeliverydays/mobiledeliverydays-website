@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: page
+title: Location
+permalink: /location/
 ---
-Amazon Pop-up Loft : 925 Market St, San Francisco, CA
+AWS Pop-up Loft
+
+925 Market St, San Francisco, CA
 
 <http://aws.amazon.com/start-ups/loft/sf-loft/>
 

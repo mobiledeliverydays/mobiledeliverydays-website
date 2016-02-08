@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Code of Conduct
+permalink: /code-of-conduct/
 ---
 
 Please read the anti-harassment policy and code of conduct following the important contact information:

@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Registration
+permalink: /register/
 ---
 
 ## Registration will start on 15th of February
