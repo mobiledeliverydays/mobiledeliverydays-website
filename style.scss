@@ -353,12 +353,29 @@ img {
 footer {
   padding: 20px 0;
   text-align: center;
-}
 
-.sponsors-logos img {
-  vertical-align: middle;
-}
 
+  .sponsors-logos {
+    padding-bottom : 20px;
+    border-bottom: 1px #ddd solid;
+    
+    img {
+      vertical-align: middle;
+    }
+  
+    p {
+      margin:0;
+    }
+  
+    .sponsors-heading {
+      font-size:120%;
+    }
+  }
+  
+  .social-logos {
+    margin-top:20px;
+  }
+}
 
 /**
  * Schedule layout
