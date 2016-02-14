@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+    background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -71,7 +71,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+    cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -96,6 +96,12 @@ ol ul, ul ol, ul ul, ol ol {
 
 ul ul, ol ul {
   list-style-type: circle;
+}
+
+ul, ol {
+  &.column-list {
+    display: inline-block;
+  }
 }
 
 em, i {
@@ -230,7 +236,7 @@ img {
     }
   }
 
-    > a {
+  > a {
     display:none;
 
     @include mobile {
@@ -257,15 +263,12 @@ img {
           top: 60%;
       }
     }
-
-
   }
 
   @include mobile {
     &:target > ul {
       display: block;
     }
-
   }
   ul {
     padding:0px;
@@ -280,29 +283,30 @@ img {
     }
 
     li {
-        position: relative;
-        float:left;
-        list-style-type:none;
-        @include mobile {
-          width: 100%;
-          float: none;
-        }
-        a {
-          display: block;
-          margin-left: 20px;
-          color: $darkGray;
-          text-align: left;
-          font-weight: 300;
-          letter-spacing: 1px;
+      position: relative;
+      float:left;
+      list-style-type:none;
+      @include mobile {
+        width: 100%;
+        float: none;
+      }
 
-          @include mobile {
-            height: auto;
-            padding: 0 0.833em;
-            line-height:2.5em;
-            border-bottom: 1px solid $white;
-            margin-left:0px;
-          }
+      a {
+        display: block;
+        margin-left: 20px;
+        color: $darkGray;
+        text-align: left;
+        font-weight: 300;
+        letter-spacing: 1px;
+
+        @include mobile {
+          height: auto;
+          padding: 0 0.833em;
+          line-height:2.5em;
+          border-bottom: 1px solid $white;
+          margin-left:0px;
         }
+      }
     }
   }
 }
@@ -354,9 +358,8 @@ footer {
   padding: 20px 0;
   text-align: center;
 
-
   .sponsors-logos {
-    padding-bottom : 20px;
+    padding-bottom: 20px;
     border-bottom: 1px #ddd solid;
     
     img {
@@ -364,16 +367,16 @@ footer {
     }
   
     p {
-      margin:0;
+      margin: 0;
     }
   
     .sponsors-heading {
-      font-size:120%;
+      font-size: 120%;
     }
   }
   
   .social-logos {
-    margin-top:20px;
+    margin-top: 20px;
   }
 }
 
@@ -393,7 +396,7 @@ footer {
 }
 
 #schedule h3, #schedule h4 {
-  margin-top:0px;
+  margin-top: 0px;
 }
 
 #schedule article.session {
@@ -418,7 +421,7 @@ footer {
 }
 
 #schedule article {
-  clear:both;
+  clear: both;
 }
 
 
