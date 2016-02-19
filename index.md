@@ -32,7 +32,7 @@ Join us [March 21-22 2016 in San Francisco](/location) to talk about everything 
 
 ## How do I sign up?
 {: class="center" }
-Registration is open and attendance is free. Space is very limited, so mark your calendars. [Lean more](/register)!
+Registration is open and attendance is free. Space is very limited, so mark your calendars. [Learn more](/register)!
 
 ## Can I speak?
 {: class="center" }
