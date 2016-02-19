@@ -1,4 +1,6 @@
-source 'http://rubygems.org'
-gem 'github-pages' , '42'
+source "https://rubygems.org"
 
-gem 'jekyll', "~>2.4.0"
+gem "jekyll", "~> 3.0"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
+gem "octopress"

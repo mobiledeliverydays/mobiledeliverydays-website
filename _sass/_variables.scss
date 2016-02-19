@@ -1,27 +1,66 @@
-
-//
-// VARIABLES
-//
-
-// Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
+// TYPOGRAPHY ================================================
+@font-face {
+    font-family: 'cornerstoneregular';
+    src: url('../fonts/cornerstone-webfont.eot');
+    src: url('../fonts/cornerstone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cornerstone-webfont.woff2') format('woff2'),
+         url('../fonts/cornerstone-webfont.woff') format('woff'),
+         url('../fonts/cornerstone-webfont.ttf') format('truetype'),
+         url('../fonts/cornerstone-webfont.svg#cornerstoneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
+$base-font: 'Roboto Condensed', sans-serif;
+$heading-font: 'cornerstoneregular', $base-font;
+$caption-font: $base-font;
+$code-font: monospace;
+$alt-font: $base-font;
+
+$doc-font-size: 16;
+$doc-line-height: 24;
+
+$border-radius: 3px;
+
+
+// set-up the body font-size / line-height
+body {
+  margin-top: 0px + $doc-line-height;
+  font-size: 0px + $doc-font-size;  
+}
+
+
+// COLORS =====================================================
+$blue               : #202f66;
+$purple             : #96a5df;
+$light-purple       : #eef7ff;
+$aqua               : #a3e8d8;
+$orange             : #fe7b41;
+
+$body-color         : $light-purple;
+$text-color         : $blue;
+$title-color        : $text-color;
+$base-color         : #343434;    
+$comp-color         : spin($base-color, 180); 
+$border-color       : #ddd;
+$white              : $light-purple;
+$black              : $blue;
+$accent-color       : $blue;
+$link-color         : $aqua;
+$link-highlight     : darken($link-color, 10%);
+
+$table-border-color           : $border-color;
+$table-border                 : 1px solid $table-border-color;
+$table-background             : $body-color;
+$table-header-color           : lighten($table-background, 10);
+$table-hover-color            : darken($table-background, 2);
+$table-stripe-color           : darken($table-background, 4);
+$table-stripe-color-hover     : darken($table-stripe-color, 5);
+
+
+// MEDIA QUERIES ==============================================
+$micro            : "only screen and (min-width: 30em)";
+$small            : "only screen and (min-width: 37.5em)";
+$medium           : "only screen and (min-width: 48em)";
+$large            : "only screen and (min-width: 62em)";
+$x-large          : "only screen and (min-width: 86.375em)";

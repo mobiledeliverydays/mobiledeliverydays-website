@@ -1,0 +1,46 @@
+<div class="navigation-wrapper">
+    <nav role="navigation" id="site-nav" class="animated drop">
+        {% if page.title != "Home" %}
+<!--         <div class="nav-icon">
+        </div> -->
+        {% endif %}
+        <ul>
+      {% for link in site.data.navigation %}
+            {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+            {% endif %}
+            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+    </nav>
+</div><!-- /.navigation-wrapper -->
+
+{% include browser-upgrade.html %}
+
+{% if page.image.feature %}<header class="masthead">
+    {% if site.logo != null %}
+        <div class="wrap">
+            <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
+        </div>
+    {% endif %}
+</header><!-- /.masthead -->
+{% elsif page.title == "Home" %}<header class="masthead">
+    <div class="wrap">
+      {% if site.logo != null %}
+        <a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
+      {% endif %}
+      <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
+        <h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
+    </div>
+</header><!-- /.masthead -->
+<center><a href="/register" class="btn">Register Now</a></center>
+{% else %}<header class="small-masthead">
+    {% if site.logo != null %}
+        <img src="{{ site.url }}/images/{{ site.logo }}" width="30" height="30" alt="{{ site.title }} logo"> {{ site.title }} &bull; March 21-22 &bull; San Francisco, CA &nbsp; <a href="/register" class="btn small">Register Now</a>
+    {% endif %}
+</header><!-- /.small-masthead -->{% endif %}
+
+<hr/>
+<div class="js-menu-screen menu-screen"></div>

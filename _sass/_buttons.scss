@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+/*
+   Default button
+   ========================================================================== */
+
+.btn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  @include font-size(14);
+  background-color: $orange;
+  color: $white;
+  border: 2px solid $orange !important;
+  border-radius: 50px;
+
+  &.secondary {
+    background-color: $white;
+    color: $orange;
+
+    &:hover {
+      background-color: $white;
+      border: 2px solid darken($orange, 10%) !important;
+      color: darken($orange, 10%);
+    }
+
+    &:visited {
+      color: darken($orange, 10%);
+    }
+  }
+
+  &:hover {
+    background-color: darken($orange, 10%);//$white;
+    border: 2px solid darken($orange, 10%) !important;
+    color: $white;//$orange;
+  }
+
+  &:visited {
+    color: $white;
+  }
+
+  &.small {
+    margin-bottom: 0;
+    padding: 5px 10px;
+  }
+}
+
+/*
+   Close button
+   ========================================================================== */
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: transparent;
+  border: 0 solid transparent;
+  color: $white;
+}

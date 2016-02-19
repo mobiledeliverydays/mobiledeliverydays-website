@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: page
 title: Code of Conduct
-permalink: /code-of-conduct/
+excerpt: "Code of Conduct"
+
 ---
 
-Please read the anti-harassment policy and code of conduct following the important contact information:
+Please read the anti-harassment policy and code of conduct. All attendees agree to the policies below.
 
-##ANTI-HARASSMENT POLICY
+## ANTI-HARASSMENT POLICY
+{: class="center" }
 
 Mobile Delivery Days is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
@@ -22,7 +24,8 @@ Conference staff can be identified by distinct staff badges. Conference staff wi
 
 We expect participants to adhere to the code of conduct at all conference venues and conference-related social events.
 
-##CODE OF CONDUCT
+## CODE OF CONDUCT
+{: class="center" }
 
 I. I am an attendee at Mobile Delivery Days, learning from and sharing with other Mobile Delivery Days attendees in an effort to better myself and my industry. I co-create the experience with fellow attendees. I am prepared to give my energy, presence and sensitivity to creating the best possible experience for myself and others.
 
