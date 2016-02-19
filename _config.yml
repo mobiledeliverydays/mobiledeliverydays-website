@@ -3,7 +3,7 @@
 title: Mobile Delivery Days
 locale: en_US
 description: The conference that brings dev and ops together around Mobile Application Delivery
-logo: site-logo.svg
+logo: site-logo.png
 search: true
 #url: http://mobiledeliverydays.org
 url: #http://localhost:4000
