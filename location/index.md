@@ -1,18 +1,21 @@
 ---
 layout: page
 title: Location
-permalink: /location/
+excerpt: "Location"
+modified: 2014-08-08T19:44:38.564948-04:00
+
 ---
-AWS Pop-up Loft
 
-925 Market St, San Francisco, CA
+## Location
+{: class="center" }
 
-<http://aws.amazon.com/start-ups/loft/sf-loft/>
+[AWS Pop-up Loft](http://aws.amazon.com/start-ups/loft/sf-loft/)  
+925 Market St, San Francisco, CA 94103
 
-<img src="loft.jpg">
+<img src="loft.jpg"/>
 
-<hr>
 <iframe
+  class="gmap"
   width="720"
   height="600"
   frameborder="0" style="border:0"

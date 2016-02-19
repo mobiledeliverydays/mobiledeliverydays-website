@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Site footer
+   ========================================================================== */
+
+.footer-wrapper {
+  @include clearfix;
+  margin: 2em auto;
+  text-align: center;
+  font-family: $alt-font;
+  @include font-size(14);
+  color: $text-color;
+  a {
+    color: $orange;
+    border-bottom: 1px dotted $orange;
+    &:hover {
+      color: darken($orange, 10%);
+      border-bottom-style: solid;
+    }
+  }
+}
+
+/*
+   Social media icons
+   ========================================================================== */
+
+.social-icons {
+  margin: 1em 0 2em;
+  a {
+    border-bottom: none;
+    padding: 4px 8px;
+    &:hover {
+      border-bottom: none;
+      color: darken($orange, 10%);
+    }
+  }
+}
+
+
+.sponsors-logos {
+  margin-bottom: 20px;
+
+  .sponsors-heading {
+    font-family: $heading-font;
+  }
+
+  .logo-box {
+    ul {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      margin: 0;
+      padding: 4px 20px;
+
+      @include media($medium) {
+        width: auto;
+      }
+      @include clearfix;
+    }
+
+   li {
+      display: block;
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      @include media($medium) {
+        display: inline-block;
+      }
+
+      img {
+        width: 120px;
+      }
+    }
+  }
+
+  .logo-box a {
+    border-bottom: none;
+    &:hover {
+      border-bottom: none;
+    }
+
+    &.logo-text {
+      font-family: $heading-font;
+      font-size: 24px;
+      border: 1px dotted #fe7b41;
+      padding: 10px;
+      border-radius: 4px;
+
+      &:hover {
+        border-bottom-style: dotted;
+      }
+    }
+  }
+}

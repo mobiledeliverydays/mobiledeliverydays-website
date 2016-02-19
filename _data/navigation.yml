@@ -1,0 +1,25 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: Propose
+  url: /propose/
+
+- title: Program
+  url: /program/
+
+- title: Location
+  url: /location/
+
+- title: Sponsor
+  url: /sponsor/
+
+- title: Register
+  url: /register/
+
+- title: CoC
+  url: /code-of-conduct/
+
+- title: Contact
+  url: /contact/

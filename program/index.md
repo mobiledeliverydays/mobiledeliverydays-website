@@ -1,9 +1,13 @@
 ---
-layout: default
+layout: page
 title: Program
-permalink: /program/
+excerpt: "Program"
 ---
-Learn about the [Openspace format](/general/open-space-format) & [Ignite talks](/general/ignite-talks-format)
+
+## Program
+{: class="center" }
+
+Learn about the [Open Space format](/general/open-space-format) & [Ignite talks](/general/ignite-talks-format)
 
 *This is very much a work in progress. We're still working out the logistics.*
 
