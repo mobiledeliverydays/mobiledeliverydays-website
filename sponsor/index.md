@@ -21,7 +21,7 @@ The best thing to do is send engineers to interact with the experts on their own
 <div style="width:100%; text-align:center">
 	<table border="0" cellspacing="4">
 		<tr>
-			<th><i>Packages</i></th>
+			<th></th>
 			<th><center><strong>Bronze<br />$500 USD&nbsp;</strong></center></th>
 			<th><center><strong>Silver<br />$1500 USD&nbsp;</strong></center></th>
 			<th><center><strong>Gold<br />$3000 USD&nbsp;</strong></center></th>
@@ -88,3 +88,4 @@ The best thing to do is send engineers to interact with the experts on their own
 </div>
 
 Questions? Email us at <a href="mailto:info@mobiledeliverydays.org">info@mobiledeliverydays.org</a>.
+{: class="center" }

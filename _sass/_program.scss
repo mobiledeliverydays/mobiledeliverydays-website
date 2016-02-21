@@ -3,38 +3,41 @@
    ========================================================================== */
 
 #schedule {
-	text-align: center;
+    text-align: center;
 
-	section.day {
-		&:first-child {
-			@include media($medium) {
-				border-right: 2px solid $aqua;
-			}
-			padding-right: 60px;
-			padding-left: 0;
-		}
+    section.day {
+        padding-right: 0;
+        padding-left: 0;
+        display: inline-block;
+        vertical-align: top;
 
-		padding-left: 60px;
-		padding-right: 0;
+        @include media($medium) {
+            padding-left: 60px;
+            padding-right: 0;
+        }
 
-		display: inline-block;
-		vertical-align: top;
+        &:first-child {
+            @include media($medium) {
+                border-right: 2px solid $aqua;
+                padding-right: 60px;
+                padding-left: 0;
+            }
+        }
 
-		ul.session-info {
-			list-style-type: none;
-			margin-top: 20px;
-			padding-left: 0;
+        ul.session-info {
+            list-style-type: none;
+            margin-top: 20px;
+            padding-left: 0;
 
-			.session-time {
-				font-weight: 900;
-			}
-			.session-title {
-				font-size: 120%;
-			}
-			.session-presenters {
-				font-style: italic;
-			}
-		}
-	}
-
+            .session-time {
+                font-weight: 900;
+            }
+            .session-title {
+                font-size: 120%;
+            }
+            .session-presenters {
+                font-style: italic;
+            }
+        }
+    }
 }

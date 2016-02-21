@@ -61,6 +61,7 @@
 .site-title {
   margin-bottom: 0;
   margin-top: 0;
+  word-spacing: normal;
   @include animation-duration(1s);
     @include animation-delay(.75s);
   a {
@@ -75,10 +76,11 @@
 .site-description {
   margin-top: 0;
   font-family: $alt-font;
+  word-spacing: normal;
   @include font-size(16);
   font-weight: 400;
   @include animation-duration(1s);
-    @include animation-delay(.75s);
+  @include animation-delay(.75s);
   @include media($medium) {
     @include font-size(20);
   }
