@@ -1,6 +1,7 @@
 # Site wide configuration
 
 title: Mobile Delivery Days
+subtitle: March 21-22
 locale: en_US
 description: The conference that brings dev and ops together around Mobile Application Delivery
 logo: site-logo.png
