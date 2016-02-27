@@ -70,11 +70,27 @@
 }
 
 /*
+   Site subtitle text
+   ========================================================================== */
+
+.site-subtitle {
+  margin-top: .5em;
+  word-spacing: normal;
+  @include font-size(16);
+  font-weight: 400;
+  @include animation-duration(1s);
+  @include animation-delay(.75s);
+  @include media($medium) {
+    @include font-size(20);
+  }
+}
+
+/*
    Site description text
    ========================================================================== */
 
 .site-description {
-  margin-top: 0;
+  margin-top: .75em;
   font-family: $alt-font;
   word-spacing: normal;
   @include font-size(16);

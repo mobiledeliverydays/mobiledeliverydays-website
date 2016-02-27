@@ -84,20 +84,6 @@
       }
     }
   }
-
-  .nav-icon {
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    float: left;
-    background-color: $white;
-
-    background-image: url(/images/site-logo.svg);
-    background-repeat: no-repeat;
-    content: "";
-    background-position: center;
-    background-size: contain;
-  }
 }
 
 /* display when JavaScript is disabled */

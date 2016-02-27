@@ -1,18 +1,14 @@
 <div class="navigation-wrapper">
     <nav role="navigation" id="site-nav" class="animated drop">
-        {% if page.title != "Home" %}
-<!--         <div class="nav-icon">
-        </div> -->
-        {% endif %}
         <ul>
-      {% for link in site.data.navigation %}
+        {% for link in site.data.navigation %}
             {% if link.url contains 'http' %}
                 {% assign domain = '' %}
                 {% else %}
                 {% assign domain = site.url %}
             {% endif %}
             <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-          {% endfor %}
+        {% endfor %}
         </ul>
     </nav>
 </div><!-- /.navigation-wrapper -->
@@ -28,11 +24,11 @@
 </header><!-- /.masthead -->
 {% elsif page.title == "Home" %}<header class="masthead">
     <div class="wrap">
-      {% if site.logo != null %}
-        <span href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></span>
-      {% endif %}
-      <h1 class="site-title animated fadeIn">{{ site.title }}</h1>
-      <h2 class="site-title animated fadeIn">{{ site.subtitle }}</h2>
+        {% if site.logo != null %}
+            <span href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></span>
+        {% endif %}
+        <h1 class="site-title animated fadeIn">{{ site.title }}</h1>
+        <strong class="site-subtitle animated fadeIn">{{ site.subtitle }}</strong>
         <h3 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h3>
     </div>
 </header><!-- /.masthead -->
