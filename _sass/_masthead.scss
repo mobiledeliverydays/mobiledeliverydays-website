@@ -61,7 +61,7 @@
 .site-title {
   margin-bottom: 0;
   margin-top: 0;
-  word-spacing: normal;
+  word-spacing: -10px;
   @include animation-duration(1s);
     @include animation-delay(.75s);
   a {

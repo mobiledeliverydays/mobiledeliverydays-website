@@ -3,10 +3,7 @@ layout: page
 title: Home
 excerpt: "The conference that brings dev and ops together around Mobile Application Delivery."
 ---
-## Special Pre-conference Event
-{: class="center" }
-[<img src="images/promo_c9d9_mobile-days-video-chat_v2b.png"/>](https://plus.google.com/events/cp5moisjbedqi2mn9c3basboeuo)
-<hr>
+
 
 ## What is it?
 {: class="center" }
