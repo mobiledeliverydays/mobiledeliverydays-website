@@ -7,7 +7,7 @@ excerpt: "Call for Speakers"
 ## Call for Speakers
 {: class="center" }
 
-#### (closes February 28th)
+#### Talk/panel prosals are now closed, but feel free to propose Ignite talks!
 {: class="center" }
 
 There are four ways for you to share your story:

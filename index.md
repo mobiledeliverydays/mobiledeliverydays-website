@@ -37,11 +37,11 @@ Registration is open and attendance is free. Space is very limited, so [reserve 
 
 ## Can I speak?
 {: class="center" }
-Yes, call for speakers is open! [Come share your knowledge, learn from your peers, advance our field](/propose).
+Call for speakers is now closed, but we're still taking submissions for Ignite talks! [Come share your knowledge, learn from your peers, and advance our field](/propose).
 
 ## Can my company help out?
 {: class="center" }
-Yes, we're looking for sponsors. [Learn more](/sponsor)!
+Yes, join our existing sponsors and help us make Mobile Delivery Days the best it can be. [Learn more](/sponsor)!
 
 ## Who's putting this together?
 {: class="center" }
