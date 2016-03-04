@@ -5,7 +5,7 @@ subtitle: March 21-22 &bull; San Francisco
 locale: en_US
 description: The conference that brings dev and ops together around Mobile Application Delivery
 logo: site-logo.png
-search: true
+search: false
 #url: http://mobiledeliverydays.org
 url: #http://localhost:4000
 
