@@ -5,12 +5,11 @@ permalink:
 published: true
 accepted: true
 
-title: Closing
+title: Opening Openspace
 summary: A short summary of your session description.
 presenters: 
-
-start: "5:15pm"
-day: 2
+start: "2:30pm"
+day: 1
 ---
 
 Session description goes here. It's a regular post so feel free to do use markup or markdown.
