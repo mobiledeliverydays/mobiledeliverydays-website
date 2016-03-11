@@ -8,7 +8,7 @@ accepted: true
 title: Re-Opening Openspace
 summary: A short summary of your session description.
 presenters: 
-start: "2:00pm"
+start: "2:30pm"
 day: 2
 ---
 
