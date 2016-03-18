@@ -48,7 +48,7 @@ Once people do not come up with new issues (wait a little bit, and ask ‘are we
 
 You may ask people to put their name on sessions they want to attend. More than one session per slot is OK… (law of two feet <img src="http://me.andering.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" /> ). This gives conveners an idea of how busy their session is going to be. It gives participants an image of how the break-out session is going.
 
-People may shuffle sessions around, or merge sessions as they are dciding where to go. Have a wiki where people can record outcomes of sessions, or provide paper forms for note-taking during sessions (recording who attended, a summary of the session and outcomes/questions for further work) that you can collect into a ‘book of proceedings’.
+People may shuffle sessions around, or merge sessions as they are deciding where to go. Have a wiki where people can record outcomes of sessions, or provide paper forms for note-taking during sessions (recording who attended, a summary of the session and outcomes/questions for further work) that you can collect into a ‘book of proceedings’.
 
 The facilitators’ role in this bit of the conference is to answer questions, and make sure everyone has the materials they need to run their break-out session. They do not (in principle) intervene in the sessions - the participants are supposed to self-organize.
 
@@ -60,4 +60,4 @@ Have everyone back in the circle. A simple and effective way to close is to have
 
 <strong>Butterflies </strong>may never get into any meeting. They are focal points of quiet and beauty. If you watch them, every once in a while you'll see them engage in conversation. Those conversations often are significant.
 
-(from <a href="http://www.ponoconsultants.com/management/what_is_an_ost_conference.html" target="_blank">Pono consultants</a>)
+(from a Pono consultants article)
