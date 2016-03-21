@@ -9,8 +9,6 @@ excerpt: "Program"
 
 Learn about the [Open Space format](/general/open-space-format) & [Ignite talks](/general/ignite-talks-format)
 
-*This is very much a work in progress. We're still working out the logistics. [Interested in speaking](/propose)?*
-
 <div id="schedule">
     <section class="day">
         {% assign confDay = '' %}

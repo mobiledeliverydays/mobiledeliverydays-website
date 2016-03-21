@@ -35,9 +35,9 @@ Join us [March 21-22 2016 in San Francisco](/location) to talk about everything 
 {: class="center" }
 Registration is open and attendance is free. Space is very limited, so [reserve your seat today](/register)!
 
-## Can I speak?
+## Will the talks be recorded?
 {: class="center" }
-Call for speakers is now closed, but we're still taking submissions for Ignite talks! [Come share your knowledge, learn from your peers, and advance our field](/propose).
+Yes! The talks will also be livestreamed [here](https://codeascraft.com/speakers/).
 
 ## Can my company help out?
 {: class="center" }
